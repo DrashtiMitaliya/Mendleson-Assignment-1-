@@ -1,0 +1,217 @@
+.heroPart {
+    position: relative;
+    height: 805px;
+
+    @media(max-width:map-get($breakpoints, xxl)) {
+        height: 750px;
+    }
+
+    @media(max-width:map-get($breakpoints, xl)) {
+        height: 650px;
+    }
+
+    @media(max-width:map-get($breakpoints, lg)) {
+        height: 550px;
+    }
+
+    @media(max-width:map-get($breakpoints, md)) {
+        height: 450px;
+    }
+
+    @media(max-width:map-get($breakpoints, sm)) {
+        height: 350px;
+    }
+    @media(max-width:474px) {
+        height: 250px;
+    }
+
+    &_s1 {
+        &_img32 {
+            position: absolute;
+            width: 700px;
+            height: 700px;
+            left: 30px;
+            bottom: 0;
+
+            @media(max-width:map-get($breakpoints, xxl)) {
+                height: 650px;
+                width:600px ;
+            }
+        
+            @media(max-width:map-get($breakpoints, xl)) {
+                height: 550px;
+                width:550px ;
+            }
+        
+            @media(max-width:map-get($breakpoints, lg)) {
+                height: 375px;
+                width:375px ;
+            }
+        
+            @media(max-width:map-get($breakpoints, md)) {
+                height: 350px;
+                width:350px ;
+            }
+        
+            @media(max-width:map-get($breakpoints, sm)) {
+                height: 250px;
+                width:250px ;
+            }
+            @media(max-width:475px) {
+                height: 150px;
+                width:150px ;
+            }
+
+
+        }
+    }
+
+    &_s2 {
+        width: 500px;
+        position: absolute;
+        right: 100px;
+        top: 14rem;
+
+        @media(max-width:map-get($breakpoints, xl)) {
+            width: 450px !important;
+            right: 130px !important;
+            top: 12rem !important;
+        }
+
+        @media(max-width:map-get($breakpoints, lg)) {
+            width: 400px !important;
+            right: 200px !important;
+            top: 8rem !important;
+        }
+
+        @media(max-width:map-get($breakpoints, md)) {
+            width: 350px !important;
+            right: 130px !important;
+            top: 6rem !important;
+        }
+
+        @media(max-width:map-get($breakpoints, sm)) {
+            width: 300px !important;
+            right: 180px !important;
+            top: 3rem !important;
+        }
+        @media(max-width:493px) {
+            width: 200px !important;
+            right: 75px !important;
+            top: 1em !important;
+        }
+
+        @media(max-width:474px) {
+            width: 200px !important;
+            right: 60px !important;
+            top: 1em !important;
+        }
+        @media(max-width:374px) {
+            width: 150px !important;
+            right: 80px !important;
+            top: 1em !important;
+        }
+
+
+
+
+        &_title {
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 56px;
+            text-align: start;
+            line-height: 66px;
+            color: #000000;
+
+            @media(max-width:map-get($breakpoints, xxl)) {
+                font-size: 52px !important;
+                line-height: 66px;
+            }
+
+            @media(max-width:map-get($breakpoints, xl)) {
+                font-size: 45px !important;
+                line-height: 56px;
+            }
+
+            @media(max-width:map-get($breakpoints, lg)) {
+                font-size: 40px !important;
+                line-height: 46px;
+            }
+
+            @media(max-width:map-get($breakpoints, md)) {
+                font-size: 35px !important;
+                line-height: 36px;
+            }
+
+            @media(max-width:map-get($breakpoints, sm)) {
+                font-size: 25px !important;
+                line-height: 26px;
+            }
+
+            @media(max-width:474px) {
+                font-size: 21px !important;
+                line-height: 20px;
+              
+            }
+        }
+
+        &_para {
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: start;
+            color: #2C2C2C;
+            margin-top: 15px;
+
+            @media(max-width:map-get($breakpoints, xxl)) {
+                font-size: 17px;
+                line-height: 20px;
+
+            }
+
+            @media(max-width:map-get($breakpoints, xl)) {
+                font-size: 15px;
+                line-height: 18px;
+            }
+
+            @media(max-width:map-get($breakpoints, lg)) {
+                font-size: 14px;
+                line-height: 15px;
+            }
+
+            @media(max-width:map-get($breakpoints, md)) {
+                font-size: 13px;
+                line-height: 13px;
+            }
+
+            @media(max-width:map-get($breakpoints, sm)) {
+                font-size: 10px;
+                line-height: 12px;
+            }
+
+            ;
+        }
+    }
+
+    &_s3 {
+        &_img31 {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            max-width: 16%;
+        }
+
+
+        &_img4 {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            max-width: 16%;
+
+
+        }
+    }
+}

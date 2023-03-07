@@ -1,0 +1,12 @@
+.heading{
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 57px;
+color: #000000;
+
+@media (max-width :575px){
+    text-align: center !important;
+}
+}

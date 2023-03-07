@@ -1,0 +1,69 @@
+.logo_img{
+
+    width: 295px;
+    margin: 10px 0 0 130px ;
+
+    @media(max-width: 507px){
+     
+        width: 50px !important;
+        margin-left: 30px !important ;
+    }
+
+    @media(max-width: map-get($breakpoints,sm)){
+        width:100px !important;
+        margin-left: 70px;
+       }
+    
+
+    @media(max-width: map-get($breakpoints,md)){
+        width: 180px !important;
+        margin-left: 80px;
+       }
+    
+    @media(max-width: map-get($breakpoints,lg)){
+        width: 200px !important;
+        margin-left:  85px;
+    }
+
+    @media(max-width: map-get($breakpoints,xl)){
+        width: 250px ;
+        margin: 1px 0 0  105px;
+       }
+
+    
+    
+
+
+}
+.navDiv{
+    justify-content: end;
+    font-weight:400;
+    font-size: 18px;
+    line-height: 22px;
+   
+    
+}
+.navlist{
+    font-family: roboto;
+    margin: 47px 35px !important; 
+
+    @media(max-width: 420px){
+        margin:-15px !important;
+        font-size:1px !important
+       }
+
+    @media(max-width: map-get($breakpoints,sm)){
+        margin:-13px !important;
+        font-size:7px !important
+       }
+     @media(max-width: map-get($breakpoints,md)){
+      margin: -3px !important;
+      font-size: 9px !important;
+
+     }
+    @media(max-width: map-get($breakpoints,lg)){
+        margin: -1px !important;
+      font-size: 12px !important;
+
+    }
+}

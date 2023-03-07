@@ -1,0 +1,18 @@
+.cardClass{
+    @media (max-width :590px){
+       display: flex;
+       flex-direction: column;
+    }
+}
+.text{
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+
+
+
+color: #000000;
+
+}

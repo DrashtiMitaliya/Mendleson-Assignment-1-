@@ -1,0 +1,56 @@
+.aboutUs_img {
+  margin-top: 60px;
+ left: 120px;
+  top: 1074px;
+
+  @media(max-width: 335px) {
+    width: 150px !important;
+  }
+  @media(max-width: map-get($breakpoints, sm)) {
+    width: 300px !important;
+  }
+  @media(max-width: map-get($breakpoints, md)) {
+    width: 500px ;
+  }
+
+}
+.mainDiv{
+  display: flex;
+  align-items: center;
+  width: 238px !important;
+}
+
+@mixin text-para {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 5px;
+
+}
+
+@mixin text-styles {
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 15px;
+
+}
+
+.engagement {
+  @include text-styles
+}
+
+.communication {
+  @include text-styles
+}
+
+.para-text {
+  @include text-para
+}
+
