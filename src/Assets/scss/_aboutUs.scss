@@ -1,3 +1,36 @@
+
+.heading{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 57px;
+  color: #000000;
+  
+  @media (max-width :map-get($breakpoints,xl)){
+      font-size: 46px !important;
+      line-height: 55px !important;
+  }
+  @media (max-width :map-get($breakpoints,lg)){
+      font-size: 40px !important;
+      line-height: 50px !important;
+  }
+  @media (max-width :map-get($breakpoints,md)){
+      font-size: 34px !important;
+      line-height: 45px !important;
+  }
+  @media (max-width :map-get($breakpoints,sm)){
+      font-size: 24px !important;
+      line-height: 35px !important;
+  }
+  
+  @media (max-width :474px){
+      text-align: center !important;
+      font-size: 20px !important;
+      line-height: 20px !important;
+  }
+  
+  }
 .aboutUs_img {
   margin-top: 60px;
  left: 120px;
@@ -28,6 +61,28 @@
   letter-spacing: 0em;
   text-align: left;
   margin-top: 5px;
+
+  @media(max-width(map-get($breakpoints,xl))){
+    font-size: 16px;
+  font-weight: 370;
+  line-height: 26px;
+  }
+  @media(max-width(map-get($breakpoints,lg))){
+    font-size: 14px;
+  font-weight: 320;
+  line-height: 22px;
+  }
+  @media(max-width(map-get($breakpoints,md))){
+    font-size: 12px;
+  font-weight: 270;
+  line-height: 18px;
+  }
+  @media(max-width(map-get($breakpoints,sm))){
+    font-size: 18px;
+  font-weight: 200;
+  line-height: 13px;
+  }
+
 
 }
 

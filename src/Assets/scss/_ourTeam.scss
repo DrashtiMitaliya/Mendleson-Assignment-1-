@@ -3,6 +3,23 @@
        display: flex;
        flex-direction: column;
     }
+    @media(max-width:map-get($breakpoints,lg)){
+        padding: 20px ;
+        width: 400px  ;
+       }
+       @media(max-width:map-get($breakpoints,md)){
+        padding: 15px ;
+        width: 300px ;
+       }
+
+       @media(max-width:map-get($breakpoints,sm)){
+        padding: 10px ;
+        width: 200px ;
+       }
+       @media(max-width:474px){
+        padding: 5px ;
+        width: 180px ;
+       }
 }
 .text{
     font-family: 'Rubik';
@@ -10,9 +27,6 @@ font-style: normal;
 font-weight: 400;
 font-size: 22px;
 line-height: 26px;
-
-
-
 color: #000000;
 
 }

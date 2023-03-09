@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Heading = () => {
+export const Underline = () => {
     const myStyle1 = {
         background: "#A9A9A9",
         borderRadius: "4px",
