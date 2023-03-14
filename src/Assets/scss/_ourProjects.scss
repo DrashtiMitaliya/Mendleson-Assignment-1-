@@ -1,19 +1,19 @@
 
-.img1 {
+.img1 ,.img2,.img3 {
    
     @media(max-width:map-get($breakpoints, xxl)) {
-        height: 686px !important;
+        
     }
 
     @media(max-width:map-get($breakpoints, sm)) {
-        height: 500px !important;
+  
     }
 
     @media(max-width:474px) {
-        height: 250px !important;
+      
     }
 
-}
+    }
 .building2 ,.building3 {
     @media (max-width :1000px) {
         display: flex !important;

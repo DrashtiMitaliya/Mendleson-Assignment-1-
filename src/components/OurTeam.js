@@ -9,13 +9,13 @@ export const OurTeam = () => {
     return (
         <div className='container'>
             <h2 className='heading'>OUR TEAM</h2>
-            <Underline />
-            <div className="row cardClass m-auto">
+    
+            <div className="row cardClass m-auto mt-5">
                 <div className="col  col-sm-12  col-lg-4 ">
-                    <Card className='border-0'>
-                    <Card.Img src={person1}  />
+                    <Card className='border-0 '>
+                   <div className='w-75 m-auto'> <Card.Img src={person1}   /></div>
                     <Card.Body>
-                        <Card.Text className='text'>
+                        <Card.Text className='text mt-4'>
                           Jessica D'suza
                         </Card.Text>
 
@@ -24,10 +24,10 @@ export const OurTeam = () => {
                 </div>
                 <div className="col  col-sm-12 col-lg-4 ">
                     <Card className='border-0' >
-                    <Card.Img   src={person2} />
+                    <div className='w-75 m-auto'> <Card.Img src={person2}   /></div>
                     <Card.Body>
                       
-                        <Card.Text className='text'>
+                        <Card.Text className='text mt-4'>
                         Johny Williams
                         </Card.Text>
 
@@ -36,10 +36,10 @@ export const OurTeam = () => {
                 </div>
                 <div className="col  col-sm-12 col-lg-4">
                     <Card className='border-0' >
-                    <Card.Img   src={person3} />
+                    <div className='w-75 m-auto'> <Card.Img src={person3}   /></div>
                     <Card.Body>
                  
-                        <Card.Text className='text'>
+                        <Card.Text className='text mt-4'>
                           Sanya R.
                         </Card.Text>
 

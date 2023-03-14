@@ -8,7 +8,7 @@ export const ServiceContent = ({ headingName, description, order, img }) => {
             <div className='row mb-5 m-auto  servicesDiv'>
                 {order ?
                     <>
-                        <div className="col  order-xl-1  text-para m-auto  col-md-12  order-md-2 order-sm-2 col-lg-6 order-lg-1">
+                        <div className="col  order-xl-1  text-para m-auto  col-md-12  order-md-2 order-sm-2 col-lg-6 order-lg-1 ">
                             <h2 className=' customClass text-xl-end end text-lg-end text-md-center  text-sm-center ' >{headingName}</h2>
                             <p className=' customClass  text-xl-end end text-lg-end text-md-center  text-sm-center '>{description}</p>
                         </div>

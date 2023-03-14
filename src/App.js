@@ -1,5 +1,5 @@
 import './App.css';
-import "./Assets/scss/style.scss"
+import "./Assets/scss/style.scss";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Header } from './components/Header';
 import { Scaller } from './components/Scaller';

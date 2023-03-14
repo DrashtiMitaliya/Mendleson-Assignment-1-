@@ -16,8 +16,9 @@ export const AboutUs = () => {
                 <div className="col-xxl-6  col-xl-12 col-lg-12 text-sm-center text-md-center text-lg-center">
                     <div className="row">
 
-                        <div className='text-start' >
+                        <div className='text-start heading_container' >
                             <span className='heading'>About Us</span>
+                            <hr className='heading_underline'/>
                         </div>
 
                        

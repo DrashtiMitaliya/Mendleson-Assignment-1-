@@ -4,3 +4,7 @@
 .logos:hover{
     filter: brightness(1);
 }
+.allLogo{
+    display: flex;
+    flex-direction: column;
+}

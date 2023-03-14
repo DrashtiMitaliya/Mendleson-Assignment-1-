@@ -12,24 +12,23 @@ import client9 from '../Assets/logos/Layer 27.svg'
 
 export const OurClients = () => {
   return (
-    <div className='container '>
+    <div className='container  mt-5'>
       <h2 className="heading">OUR CLIENTS</h2>
-      <Underline />
-      <div className=''>
+    
+      <div className='allLogo'>
         <div>
           <img src={client1} alt="" className='logos p-4'  />
           <img src={client2} alt="" className='logos  p-4' /> 
             <img src={client3} alt="" className='logos p-4' />
           <img src={client4} alt="" className='logos p-4' />
           <img src={client5} alt="" className='logos p-4' />
-        </div>
-       <div>
-       <img src={client6} alt="" className='logos p-4' />
+          <img src={client6} alt="" className='logos p-4' />
         <img src={client7} alt="" className='logos p-4' />
         <img src={client8} alt="" className='logos p-4' />
         <img src={client9} alt="" className='logos p-4' /> 
 
-       </div>
+        </div>
+    
       </div>
 
     </div>

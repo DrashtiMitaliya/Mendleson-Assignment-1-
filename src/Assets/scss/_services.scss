@@ -1,3 +1,54 @@
+.service_container{
+    position: relative;
+  }
+  .service{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 57px;
+    color: #000000;
+    
+    @media (max-width :map-get($breakpoints,xl)){
+        font-size: 46px !important;
+        line-height: 55px !important;
+    }
+    @media (max-width :map-get($breakpoints,lg)){
+        font-size: 40px !important;
+        line-height: 50px !important;
+    }
+    @media (max-width :map-get($breakpoints,md)){
+        font-size: 34px !important;
+        line-height: 45px !important;
+    }
+    @media (max-width :map-get($breakpoints,sm)){
+        font-size: 24px !important;
+        line-height: 35px !important;
+    }
+    
+    @media (max-width :474px){
+        text-align: center !important;
+        font-size: 20px !important;
+        line-height: 20px !important;
+    }
+  
+    &::after{
+      content: "";
+      width: 120px;
+      border: 3px solid #A9A9A9;
+      position: absolute;
+      left: 10px;
+      bottom: 0;
+      border-radius: 20px;
+    }
+    }
+    .service_underline{
+      width: 200px;
+      position: absolute;
+      left: 10px;
+      bottom: -14px;
+  
+    }
 .text-para {
 
     margin: auto;

@@ -1,4 +1,6 @@
-
+.heading_container{
+  position: relative;
+}
 .heading{
   font-family: 'Rubik';
   font-style: normal;
@@ -29,7 +31,23 @@
       font-size: 20px !important;
       line-height: 20px !important;
   }
-  
+
+  &::after{
+    content: "";
+    width: 120px;
+    border: 3px solid #A9A9A9;
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    border-radius: 20px;
+  }
+  }
+  .heading_underline{
+    width: 200px;
+    position: absolute;
+    left: 10px;
+    bottom: -14px;
+
   }
 .aboutUs_img {
   margin-top: 60px;

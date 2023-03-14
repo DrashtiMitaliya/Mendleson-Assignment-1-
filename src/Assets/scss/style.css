@@ -3,6 +3,7 @@
   left: 0;
   top: 0;
   max-width: 16%;
+  z-index: -1;
 }
 
 .asset2 {
@@ -10,6 +11,7 @@
   right: 0;
   top: 0;
   max-width: 16%;
+  z-index: -1;
 }
 
 .asset51 {
@@ -17,6 +19,7 @@
   left: 0;
   top: 1400px;
   max-width: 16%;
+  z-index: -1;
 }
 
 .asset52 {
@@ -24,6 +27,7 @@
   left: 0;
   top: 3400px;
   max-width: 16%;
+  z-index: -1;
 }
 
 .asset61 {
@@ -31,6 +35,7 @@
   right: 0;
   top: 1900px;
   max-width: 16%;
+  z-index: -1;
 }
 
 .asset71 {
@@ -38,6 +43,7 @@
   left: 0;
   top: 2400px;
   max-width: 16%;
+  z-index: -1;
 }
 
 .asset82 {
@@ -45,6 +51,7 @@
   right: 0;
   top: 2800px;
   max-width: 16%;
+  z-index: -1;
 }
 
 .asset83 {
@@ -52,6 +59,7 @@
   right: 0;
   top: 3780px;
   max-width: 16%;
+  z-index: -1;
 }
 
 .asset91 {
@@ -59,6 +67,7 @@
   left: 0;
   top: 5000px;
   max-width: 16%;
+  z-index: -1;
 }
 
 .logo_img {
@@ -101,11 +110,11 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  padding-right: 70px;
 }
 
 .navlist {
-  font-family: roboto;
-  margin: 47px 35px !important;
+  margin: 0px 35px 0px 0px !important;
 }
 @media (max-width: 420px) {
   .navlist {
@@ -212,7 +221,7 @@
 .heroPart_s2 {
   width: 500px;
   position: absolute;
-  right: 100px;
+  right: 150px;
   top: 14rem;
 }
 @media (max-width: 1200px) {
@@ -362,6 +371,10 @@
   max-width: 16%;
 }
 
+.heading_container {
+  position: relative;
+}
+
 .heading {
   font-family: "Rubik";
   font-style: normal;
@@ -400,6 +413,22 @@
     font-size: 20px !important;
     line-height: 20px !important;
   }
+}
+.heading::after {
+  content: "";
+  width: 120px;
+  border: 3px solid #A9A9A9;
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  border-radius: 20px;
+}
+
+.heading_underline {
+  width: 200px;
+  position: absolute;
+  left: 10px;
+  bottom: -14px;
 }
 
 .aboutUs_img {
@@ -485,6 +514,66 @@
     font-weight: 200;
     line-height: 13px;
   }
+}
+
+.service_container {
+  position: relative;
+}
+
+.service {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 57px;
+  color: #000000;
+}
+@media (max-width: 1200px) {
+  .service {
+    font-size: 46px !important;
+    line-height: 55px !important;
+  }
+}
+@media (max-width: 992px) {
+  .service {
+    font-size: 40px !important;
+    line-height: 50px !important;
+  }
+}
+@media (max-width: 768px) {
+  .service {
+    font-size: 34px !important;
+    line-height: 45px !important;
+  }
+}
+@media (max-width: 576px) {
+  .service {
+    font-size: 24px !important;
+    line-height: 35px !important;
+  }
+}
+@media (max-width: 474px) {
+  .service {
+    text-align: center !important;
+    font-size: 20px !important;
+    line-height: 20px !important;
+  }
+}
+.service::after {
+  content: "";
+  width: 120px;
+  border: 3px solid #A9A9A9;
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  border-radius: 20px;
+}
+
+.service_underline {
+  width: 200px;
+  position: absolute;
+  left: 10px;
+  bottom: -14px;
 }
 
 .text-para {
@@ -594,22 +683,6 @@
   color: #000000;
 }
 
-@media (max-width: 1400px) {
-  .img1 {
-    height: 686px !important;
-  }
-}
-@media (max-width: 576px) {
-  .img1 {
-    height: 500px !important;
-  }
-}
-@media (max-width: 474px) {
-  .img1 {
-    height: 250px !important;
-  }
-}
-
 @media (max-width: 1000px) {
   .building2, .building3 {
     display: flex !important;
@@ -681,6 +754,11 @@
 
 .logos:hover {
   filter: brightness(1);
+}
+
+.allLogo {
+  display: flex;
+  flex-direction: column;
 }
 
 .contactUs {

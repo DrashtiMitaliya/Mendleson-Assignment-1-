@@ -40,12 +40,13 @@
     font-weight:400;
     font-size: 18px;
     line-height: 22px;
+    padding-right: 70px;
    
     
 }
 .navlist{
-    font-family: roboto;
-    margin: 47px 35px !important; 
+   
+    margin: 0px 35px 0px 0px !important; 
 
     @media(max-width: 420px){
         margin:-15px !important;
