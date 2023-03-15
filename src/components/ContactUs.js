@@ -22,14 +22,14 @@ export const ContactUs = () => {
                     <p>Team</p>
                     <p>Clients</p>
                 </div>
-                <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 text-xl-start m-auto text-sm-center">
+                <div className="col-xl-3 col-lg-6 col-md-6 col-sm-12 text-xl-start text-lg-start text-sm-center">
                     <span className='header '>Contacts</span>
                     <p>Lorem ipsum dolor sit.
                     </p>
                     <p>Used for Display</p>
                     <p>1234567890</p>
                 </div>
-                <div className="col-xl-3 col-md-6 text-start mx-auto  text-xl-start text-sm-center">
+                <div className="col-xl-3 col-lg-6 col-md-6 text-start  text-xl-start  text-sm-center">
                     <span className='header'>Email</span>
                     <p>mendlesoncommunication@email.com</p>
                 </div>

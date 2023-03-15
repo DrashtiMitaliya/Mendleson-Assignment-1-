@@ -1,5 +1,8 @@
 .service_container{
     position: relative;
+    padding: 9px;
+    margin: auto !important;
+    width: 222px;
   }
   .service{
     font-family: 'Rubik';
@@ -40,6 +43,23 @@
       left: 10px;
       bottom: 0;
       border-radius: 20px;
+      @media(max-width:map-get($breakpoints,xl)){
+        left: 26px;
+        width: 100px;
+      }
+      @media(max-width:map-get($breakpoints,lg)){
+        left: 24px;
+        width: 80px;
+      }
+      @media(max-width:map-get($breakpoints,md)){
+        left: 41px;
+        width: 60px;
+      }
+      @media(max-width:map-get($breakpoints,sm)){
+        left: 58px;
+        width: 40px;
+      }
+
     }
     }
     .service_underline{
@@ -47,6 +67,24 @@
       position: absolute;
       left: 10px;
       bottom: -14px;
+      @media(max-width:map-get($breakpoints,xl)){
+      
+        left: 104px;
+        width: 100px;
+      }
+      @media(max-width:map-get($breakpoints,lg)){
+        left:72px;
+        width: 120px;
+      }
+      @media(max-width:map-get($breakpoints,md)){
+        left:98px;
+        width:80px ;
+      }
+      @media(max-width:map-get($breakpoints,sm)){
+        left:95px;
+        width: 60px;
+      }
+      
   
     }
 .text-para {

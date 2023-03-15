@@ -8,7 +8,10 @@ import person3 from '../Assets/Team Members/Person 3 img 1.svg'
 export const OurTeam = () => {
     return (
         <div className='container'>
-            <h2 className='heading'>OUR TEAM</h2>
+             <div className='team_container' >
+                <p className='team'>OUR TEAM</p>
+                <hr className='team_underline' />
+            </div>
     
             <div className="row cardClass m-auto mt-5">
                 <div className="col  col-sm-12  col-lg-4 ">

@@ -13,7 +13,10 @@ import client9 from '../Assets/logos/Layer 27.svg'
 export const OurClients = () => {
   return (
     <div className='container  mt-5'>
-      <h2 className="heading">OUR CLIENTS</h2>
+        <div className='  clients_container' >
+                <span className='clients'>OUR CLIENTS</span>
+                <hr className='clients_underline' />
+            </div>
     
       <div className='allLogo'>
         <div>

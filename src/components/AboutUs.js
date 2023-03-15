@@ -17,8 +17,8 @@ export const AboutUs = () => {
                     <div className="row">
 
                         <div className='text-start heading_container' >
-                            <span className='heading'>About Us</span>
-                            <hr className='heading_underline'/>
+                            <span className='heading mb-3 '>About Us</span>
+                            <hr className='heading_underline mt-4'/>
                         </div>
 
                        
